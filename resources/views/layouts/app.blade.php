@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>@yield('page-title') | Laravel Start 1</title>
+        <title>@yield('page-title')</title>
 
         {{-- Stili nell'head --}}
         <link rel="stylesheet" href="css/style.css">
@@ -37,7 +37,7 @@
                             <div class="img-card">
                                 <img class="img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                             </div>
-                            <p class="comic-title">{{ $comic['title'] }}</p>
+                            <p class="comic-title py-3">{{ $comic['title'] }}</p>
                         </div>
                     @endforeach
                 </div>
