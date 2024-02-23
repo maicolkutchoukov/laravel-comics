@@ -1,15 +1,72 @@
 @import "~bootstrap/scss/bootstrap";
 
 main {
-    background-color: lightcoral;
+    background-color: black;
 }
 
-.gatto-img {
-    height: 200px;
+.header-top{
+    background-color: #0082F9;
+    .btn-dropdown{
+        color: white;
+    }
 }
 
-.gatto-bg {
+.header-bottom{
+    background-color: white;
+    .navbar{
+
+        a{
+            padding: 20px 10px !important;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+        }
+    }
+    #search{
+        border: none;
+        border-bottom: 2px solid #0082F9;
+    }
+}
+
+.jumbotron{
+    min-height: 400px;
+    background-image: url('../img/jumbotron.jpg');
+    position: relative;
+    .current-series{
+        position: absolute;
+        bottom: -20px;
+        color: white;
+        background-color: #0082F9;
+        font-weight: bold;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+}
+
+.img-card{
+    width: 200px;
     height: 200px;
-    background-image: url('../img/gatto.webp');
-    background-size: contain;
+    overflow: hidden;
+}
+.comic-title{
+    color: white;
+    text-transform: uppercase;
+}
+
+.load-more-btn{
+    color: white;
+    background-color: #0082F9;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+#section-buy{
+    background-color: #0082F9;
+    img{
+        width: 35%;
+    }
 }
