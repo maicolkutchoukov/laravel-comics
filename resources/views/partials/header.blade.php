@@ -49,7 +49,7 @@
 
 <header>
     <div class="header-top fw-bold">
-        <div class="container header-top py-1 d-flex align-items-center justify-content-end">
+        <div class="container header-top d-flex align-items-center justify-content-end">
             <span class="text-white">DC POWER VISA®</span>
             <div class="dropdown">
                 <button class="btn btn-dropdown dropdown-toggle fw-bold ps-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
